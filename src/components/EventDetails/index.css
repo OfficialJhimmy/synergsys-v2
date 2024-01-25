@@ -1,0 +1,137 @@
+/* .event__container {
+    display: flex;
+    gap: 30px;
+    padding: 40px 60px;
+} */
+
+.eventdetails__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    /* outline: 1px solid green; */
+    width: 80%;
+}
+
+/* .event--ekit {
+    width: 20%;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+} */
+
+.eventdetails__top {
+    display: flex;
+    gap: 30px;
+}
+
+.eventdetails__top--cards {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+
+.eventdetails--about {
+    width: 60%;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventdetails--about img {
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+
+.form--iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.form--iframe body {
+    margin: 0; 
+}
+
+.eventdetails--form {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* TYPOGRAPHY */
+.eventdetails__top--cards p {
+    color: #4d5b66;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.eventdetails--about h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.eventdetails--about p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.event--notice {
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 680px) {
+    .eventdetails__wrapper {
+        gap: 50px;
+        margin: 50px 0;
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .eventdetails__top {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .eventdetails--about {
+        width: 100%;
+    }
+
+    .eventdetails--form {
+        width: 100%;
+        /* Add this line to ensure no margin is applied */
+    }
+
+    .eventdetails--about img {
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 681px) {
+
+
+}

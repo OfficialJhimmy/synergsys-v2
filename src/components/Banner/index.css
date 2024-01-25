@@ -1,0 +1,211 @@
+.banner__container {
+  background: url(../../assets/background-two.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: #fff;
+}
+
+.banner--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 60%;
+  height: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.banner__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.banner__heading img {
+  width: 20%;
+}
+
+.banner__countdown--details,
+.banner__countdown--details div,
+.banner__countdown--timer {
+  display: flex;
+  align-items: center;
+}
+
+.banner__countdown--details {
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.banner__countdown--details div {
+  gap: 10px;
+}
+
+.banner__countdown--timer {
+  gap: 30px;
+  justify-content: center;
+}
+
+.banner__countdown--timer div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+/* TYPOGRAPHY */
+.banner__heading p {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.banner__heading h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.banner--icons {
+  font-size: 20px;
+}
+
+.banner__countdown--details p {
+  font-size: 18px;
+  font-size: 700;
+}
+
+.banner__countdown--timer p {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.timer--text {
+  text-transform: uppercase;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 680px) {
+  .banner__container {
+    height: 80vh;
+  }
+
+  .banner--wrapper {
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0px 20px 0 20px;
+  }
+
+  .banner__heading img {
+    width: 20%;
+  }
+
+  .banner__countdown {
+    width: 100%;
+  }
+
+  .banner__countdown--details {
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* TYPOGRAPHY */
+  .banner__heading h1 {
+    font-size: 25px;
+  }
+
+  .banner--icons {
+    font-size: 20px;
+  }
+
+  .banner__countdown--details p {
+    font-size: 16px;
+  }
+
+  .banner__countdown--timer p {
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 681px) {
+  .banner__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: #fff;
+  }
+
+  .banner--wrapper {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0px 20px 0 20px;
+  }
+
+  .banner__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .banner__heading img {
+    width: 20%;
+  }
+
+  .banner__countdown {
+    width: 100%;
+  }
+
+  .banner__countdown--details {
+    gap: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* TYPOGRAPHY */
+  .banner__heading p {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .banner__heading h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .banner--icons {
+    font-size: 20px;
+  }
+
+  .banner__countdown--details p {
+    font-size: 20px;
+  }
+
+  .banner__countdown--timer p {
+    font-size: 20px;
+  }
+}
