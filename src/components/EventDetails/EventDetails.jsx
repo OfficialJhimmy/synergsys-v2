@@ -3,9 +3,7 @@ import "./index.css";
 import { BsCalendarDayFill } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
 import { MdAccessTime } from "react-icons/md";
-import Form from "../Form/Form";
-import ekit from "../../assets/ekit-preview.png";
-import flier from '../../assets/Artboard-one.png'
+import flier from "../../assets/flier.png";
 
 const EventDetails = () => {
   return (
@@ -28,10 +26,11 @@ const EventDetails = () => {
       <div className="eventdetails--about">
         <h3>ABOUT THIS EVENT</h3>
         <p>
-          Following the appointment of SYNERGETICS GLOBAL SYSTEM as the pioneer
-          Distribution Partner for the HUAWEI SME Product Category, the stage is
-          set to on-board potential Partners to Deepen the Digitalization Drive
-          for Accelerated National Development.
+          <strong>HUAWEI</strong> , the leading global provider of ICT
+          infrastructure and smart devices, has embarked on a transformative
+          journey of connectivity in collaboration with{" "}
+          <strong>SYNERGETICS</strong>, unveiling the revolutionary eKit (small
+          office/home office) products to the NIGERIA market.
         </p>
         <p className="event--notice">
           NOTE:This is a LIVE / In-PERSON EVENT and It will hold according to

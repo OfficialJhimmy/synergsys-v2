@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
-import logo from "../../assets/sgs-logo.png";
+import logo from "../../assets/HW.png";
 import { BsCalendarDayFill } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
 
@@ -34,9 +34,10 @@ const Banner = () => {
     <div className="banner__container">
       <div className="banner--wrapper">
         <div className="banner__heading">
-          <p>Synergetics Global System invites you to their event</p>
+          
           <img src={logo} alt="SGS Logo" />
-          <h1>HUAWEI-SGS eKIT DIGITALIZATION LAUNCH</h1>
+          <p>Specially invites you</p>
+          <h1>HUAWEI-SGS eKIT DIGITALIZATION PRODUCT LAUNCH</h1>
         </div>
         <div className="banner__countdown">
           <div className="banner__countdown--details">
